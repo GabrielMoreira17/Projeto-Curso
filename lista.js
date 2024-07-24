@@ -32,6 +32,5 @@ function calcularIMC() {
 
     var imc = peso / (altura * altura);
 
-    // Exibir o resultado do IMC no campo de input
     document.getElementById('resultImc').value = 'Seu IMC é: ' + imc.toFixed(2);
 }
