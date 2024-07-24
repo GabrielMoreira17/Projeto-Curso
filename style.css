@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.topo{
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    color: white;
+    cursor: default;
+}
+
+.ph{
+    position: absolute;
+    align-items: center;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 30%;
+    left: 30%;
+}
+
+.ph:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.tela-0{
+    width: 50px;
+    height: 120px;
+    background-color: red;
+}
+
+.tela-1{
+    background-color: orange;
+    width: 50px;
+    height: 120px;
+}
+
+.tela-2{
+    background-color: rgb(240, 225, 14);
+    width: 50px;
+    height: 120px;
+}
+
+.tela-3{
+    background-color: yellow;
+    width: 50px;
+    height: 120px;
+}
+
+.tela-4{
+    background-color: greenyellow;
+    width: 50px;
+    height: 120px;
+}
+
+.tela-5{
+    background-color: rgb(0, 218, 0);
+    width: 50px;
+    height: 120px;
+}
+
+.tela-6{
+    background-color: rgb(2, 161, 2);
+    width: 50px;
+    height: 120px;
+}
+
+.tela-7{
+    background-color:green;
+    width: 50px;
+    height: 120px;
+}
+
+.tela-8{
+    background-color: #3cb371;
+    width: 50px;
+    height: 120px;    
+}
+
+.tela-9{
+    background-color: rgb(2, 196, 196);
+    width: 50px;
+    height: 120px;
+}
+
+.tela-10{
+    background-color: rgb(12, 156, 223);
+    width: 50px;
+    height: 120px;
+}
+
+.tela-11{
+    background-color: #9370db;
+    width: 50px;
+    height: 120px;
+}
+
+.tela-12{
+    background-color: #8a2be2;
+    width: 50px;
+    height: 120px;
+}
+
+.tela-13{
+    background-color: #9370db;
+    width: 50px;
+    height: 120px;
+}
+
+.tela-14{
+    background-color: purple;
+    width: 50px;
+    height: 120px;
+}
+
+.numeros{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    top: 90%;
+    position: absolute;
+    color: black;
+}
+
+#acido{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 32%;
+    top: 25%;
+    cursor: pointer;
+}
+
+#acido:hover{
+    transform: scale(1.5);
+}
+
+#neutro{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 47%;
+    top: 25%;
+    cursor: pointer;
+}
+
+#neutro:hover{
+    transform: scale(1.5);
+}
+
+#basico{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 62%;
+    top: 25%;
+    cursor: pointer;
+}
+
+#basico:hover{
+    transform: scale(1.5);
+}
