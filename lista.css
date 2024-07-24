@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
 }
 
-.topo{
+.topo {
     text-align: center;
     background-color: aliceblue;
     padding: 20px;
 }
 
-.Msg-btn{
+.Msg-btn {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -27,7 +27,7 @@ body{
     box-shadow: 10px 10px 20px black;
 }
 
-#btn-msg{
+#btn-msg {
     position: relative;
     top: 120px;
     left: 100px;
@@ -36,7 +36,7 @@ body{
     cursor: pointer;
 }
 
-.idade{
+.idade {
     position: absolute;
     top: 10%;
     left: 23%;
@@ -51,7 +51,7 @@ body{
     gap: 20px;
 }
 
-input{
+input {
     position: relative;
     border: solid black 5px 5px 10px;
     padding: 10px;
@@ -59,7 +59,7 @@ input{
     top: 5%;
 }
 
-#mosta-idade{
+#mosta-idade {
     position: relative;
     top: 5%;
     left: 20%;
@@ -68,27 +68,80 @@ input{
     cursor: pointer;
 }
 
-#mostra-idade:hover{
+#mostra-idade:hover {
     transform: scale(1.5);
 }
 
-.calcula-media{
+.calcula-media {
     position: absolute;
     border: solid 2px black;
     width: 300px;
     height: 300px;
     position: absolute;
     top: 10%;
-    left: 43%;
+    left: 41%;
     box-shadow: 5px 5px 10px black;
     border-radius: 5px;
 }
 
-#calc-media{
+#calc-media {
     position: relative;
     top: 40%;
     left: -30%;
     cursor: pointer;
     width: 90px;
     height: 30px;
+}
+
+#num-1 {
+    position: relative;
+    left: 20%;
+}
+
+#num-2 {
+    position: relative;
+    left: 20%;
+}
+
+#num-3 {
+    position: relative;
+    left: 20%;
+}
+
+#result {
+    position: relative;
+    left: 20%;
+    top: 15%;
+}
+
+#calc-media {
+    position: relative;
+    top: 50%;
+}
+
+.imc {
+    position: absolute;
+    top: 10%;
+    left: 59%;
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+}
+
+.imc input {
+    position: relative;
+    top: 15%;
+    left: 20%;
+    margin-bottom: 10px;
+}
+
+#calcImc {
+    position: relative;
+    top: 50%;
+    left: -25%;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
 }

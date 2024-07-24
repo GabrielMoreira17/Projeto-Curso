@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="lista.css">
     <title>Lista de JavaScript</title>
 </head>
+
 <body>
     <header class="topo">
         <h1>Lista de JavaScript</h1>
@@ -23,11 +25,19 @@
     <div class="calcula-media">
         <input type="text" id="num-1" placeholder="Digite o número">
         <input type="text" id="num-2" placeholder="Digite o número">
-        <input type="text" id="num-3" placeholder="Digite o número">    
+        <input type="text" id="num-3" placeholder="Digite o número">
         <button id="calc-media" onclick="calcMedia()">Calcular</button>
         <input type="text" id="result" placeholder="Resultado">
     </div>
-    
+
+    <div class="imc">
+        <input type="text" id="peso" placeholder="Digite seu peso" required>
+        <input type="text" id="altura" placeholder="Digite sua altura" required>
+        <button id="calcImc" onclick="calcularIMC()">Calcula IMC</button>
+        <input type="text" id="resultImc" placeholder="Resultado IMC">
+    </div>
+
     <script src="lista.js"></script>
 </body>
+
 </html>
