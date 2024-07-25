@@ -145,3 +145,14 @@ input {
     height: 40px;
     cursor: pointer;
 }
+
+.multiplos{
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
