@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
 
     <div class="idade">
         <input id="idade-1" type="text" placeholder="Digite sua idade" required>
-        <button id="mosta-idade" onclick="VerificaIdade()">Idade Maior</button>
+        <button id="mostra-idade" onclick="VerificaIdade()">Idade Maior</button>
     </div>
 
     <div class="calcula-media">
@@ -27,18 +27,43 @@
         <input type="text" id="num-2" placeholder="Digite o número">
         <input type="text" id="num-3" placeholder="Digite o número">
         <button id="calc-media" onclick="calcMedia()">Calcular</button>
-        <input type="text" id="result" placeholder="Resultado">
+        <input type="text" id="result" placeholder="Resultado" readonly>
     </div>
 
     <div class="imc">
         <input type="text" id="peso" placeholder="Digite seu peso" required>
         <input type="text" id="altura" placeholder="Digite sua altura" required>
         <button id="calcImc" onclick="calcularIMC()">Calcula IMC</button>
-        <input type="text" id="resultImc" placeholder="Resultado IMC">
+        <input type="text" id="resultImc" placeholder="Resultado IMC" readonly>
     </div>
 
     <div class="multiplos">
-        <input type="text" placeholder="Os multiplos são: ">
+        <input type="text" id="result-mult" placeholder="Os múltiplos são: " readonly>
+        <button id="mostra-multi">Mostrar Múltiplos</button>
+    </div>
+
+    <div class="fibonacci">
+        <input type="text" id="result-fibonacci" placeholder="A soma da Sequência é" readonly>
+        <button id="calcular-fibonacci">Calcular Soma dos Termos</button>
+    </div>
+
+    <div class="primos">
+        <input type="text" id="result-primo" placeholder="O 1001º número primo é: " readonly>
+        <button id="calcular-primo">Mostrar Primo 1001</button>
+    </div>
+
+    <div class="primos-entre-0-200">
+        <button id="mostrar-primos">Mostrar Primos entre 0 e 200</button>
+        <table id="tabela-primos">
+            <thead>
+                <tr>
+                    <th>Números</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
     </div>
 
     <script src="lista.js"></script>
