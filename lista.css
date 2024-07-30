@@ -14,6 +14,11 @@ body {
     padding: 20px;
 }
 
+input{
+    border-radius: 5px;
+    outline: none;
+}
+
 .Msg-btn {
     position: absolute;
     width: 300px;
@@ -149,10 +154,91 @@ input {
 .multiplos{
     position: absolute;
     top: 10%;
-    left: 65%;
+    left: 80%;
     width: 300px;
     height: 300px;
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
+}
+
+#mostra-multi{
+    position: relative;
+    top: 50%;
+    left: -30%;
+    cursor: pointer;
+}
+
+.multiplos input{
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+.fibonacci{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.fibonacci input{
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+#calcular-fibonacci{
+    position: relative;
+    top: 35%;
+    left: 24%;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.primos{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 25%;
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.primos input{
+    top: 20%;
+    left: 20%;
+}
+
+#calcular-primo{
+    position: relative;
+    top: 50%;
+    left: -30%;
+    cursor: pointer;
+}
+
+.primos-entre-0-200{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+}
+
+
+#mostra-primos{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    cursor: pointer;
 }
