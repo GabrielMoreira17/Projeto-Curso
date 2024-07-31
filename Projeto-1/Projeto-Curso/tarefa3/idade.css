@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+.topo{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.idade {
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    position: relative;
+    border: solid black 5px 5px 10px;
+    padding: 10px;
+    background: transparent;
+    top: 5%;
+}
+
+#mostra-idade {
+    position: relative;
+    top: 5%;
+    left: 20%;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+.topo{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.inverte{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.inverte input{
+    position: relative;
+    top: 35%;
+    left: 25%;
+    margin: 5px;
+    outline: none;
+}
+
+button{
+    position: relative;
+    top: 60%;
+    left: -20%;
+    cursor: pointer;
+}
