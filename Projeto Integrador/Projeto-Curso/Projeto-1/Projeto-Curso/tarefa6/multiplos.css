@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+.topo {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.multiplos{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#mostra-multi{
+    position: relative;
+    top: 50%;
+    left: -30%;
+    cursor: pointer;
+}
+
+.multiplos input{
+    position: relative;
+    top: 20%;
+    left: 20%;
+}

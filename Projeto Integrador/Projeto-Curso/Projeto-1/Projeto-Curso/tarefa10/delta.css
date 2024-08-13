@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+.topo{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.calc-delta{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.calc-delta input{
+    position: relative;
+    outline: none;
+    left: 25%;
+    width: 50%;
+    top: 5%;
+}
+
+.calc-delta label{
+    position: relative;
+    top: 8%;
+    left: 20%;
+}
+
+#calcula-delta{
+    position: relative;
+    width: 50%;
+    top: 10%;
+    left: 25%;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.results{
+    position: relative;
+    top: 20%;
+    left: 35%;
+}

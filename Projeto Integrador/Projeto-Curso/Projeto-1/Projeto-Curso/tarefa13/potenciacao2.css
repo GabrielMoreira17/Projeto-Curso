@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+.topo {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;  
+    transform: translateX(-50%);
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    background-color: white;
+    padding: 20px;
+}
+
+.result {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.result span {
+    font-size: 1.2em;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+}
